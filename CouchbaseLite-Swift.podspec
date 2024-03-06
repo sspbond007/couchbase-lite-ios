@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = 'https://github.com/couchbase/couchbase-lite-ios'
   s.summary               = 'An embedded syncable NoSQL database for iOS and MacOS apps.'
   s.author                = 'Couchbase'
-  s.source                = { :git => 'https://github.com/couchbase/couchbase-lite-ios.git', :tag => s.version, :submodules => true }
+  s.source                = { :git => 'https://github.com/couchbase/couchbase-lite-ios.git', :branch => 'master', :submodules => true }
 
   s.prepare_command = <<-CMD
     sh Scripts/prepare_cocoapods.sh "CBL_Swift"
